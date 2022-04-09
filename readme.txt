@@ -1,6 +1,6 @@
 === WP SMTP ===
 Tags: wp smtp,smtp,mail,email,logs,mailer,wp mail,gmail,yahoo,mail smtp,ssl,tls
-Contributors: wpchill,silkalns,raldea89,giucu91,andylukak
+Contributors: wpchill,silkalns,raldea89,giucu91,andylukak,shenyanzhi
 License: GPLv3 or later
 Requires at least: 2.7
 Tested up to: 5.9

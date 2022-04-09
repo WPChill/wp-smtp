@@ -1,106 +1,150 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP-SMTP Languages\n"
-"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-07 00:39+0800\n"
-"PO-Revision-Date: 2013-10-07 00:39+0800\n"
-"Last-Translator: 夜光 <berttung(#)gmail.com>\n"
-"Language-Team: 玻璃泉BoLiQuan.COM <berttung(#)gmail.com>\n"
+"PO-Revision-Date: 2022-04-09 08:11+0800\n"
+"Last-Translator: sy-records <i@lufei.dev>\n"
+"Language-Team: WP-SMTP Languages\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-smtp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: CHINA\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-smtp\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp-smtp.php:66
+#. Plugin Name of the plugin/theme
+#: inc/Admin.php:21
+msgid "WP SMTP"
+msgstr "WP SMTP"
+
+#: inc/Admin.php:24
+msgid "Mail Logs"
+msgstr "邮件日志"
+
+#: wp-smtp.php:123
+msgid "Logs"
+msgstr "日志"
+
+#: wp-smtp.php:126
 msgid "Settings"
 msgstr "设置"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:21
+#: wp_smtp_admin.php:24
 msgid "The field \"From\" must be a valid email address!"
 msgstr "“发件人地址”必须是一个有效的电子邮件地址！"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:24
+#: wp_smtp_admin.php:26
 msgid "The field \"SMTP Host\" can not be left blank!"
 msgstr "“SMTP服务器地址”不能为空！"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:27
+#: wp_smtp_admin.php:28
 msgid "Options saved."
 msgstr "设置已保存。"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:47
+#: wp_smtp_admin.php:52
+msgid "Some of the test fields are empty or an invalid email supplied"
+msgstr "某些测试字段为空或提供的收件地址无效"
+
+#: wp_smtp_admin.php:57
 msgid "Message sent!"
 msgstr "邮件已发送！"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:54
-msgid "Some errors occurred!"
-msgstr "发生了一些错误！"
-
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:57
-msgid "The fields \"To\" \"Subject\" \"Message\" can not be left blank when testing!"
-msgstr "测试时“收件地址”“邮件标题”“邮件正文”均不能为空！"
-
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:80
+#: wp_smtp_admin.php:80
 msgid "From"
 msgstr "发件人地址"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:90
+#: wp_smtp_admin.php:91
 msgid "From Name"
 msgstr "发件人昵称"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:100
+#: wp_smtp_admin.php:102
 msgid "SMTP Host"
 msgstr "SMTP服务器地址"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:110
+#: wp_smtp_admin.php:113
 msgid "SMTP Secure"
 msgstr "SMTP加密方式"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:131
+#: wp_smtp_admin.php:137
 msgid "SMTP Port"
 msgstr "SMTP端口"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:141
+#: wp_smtp_admin.php:148
 msgid "SMTP Authentication"
 msgstr "SMTP认证"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:157
+#: wp_smtp_admin.php:166
 msgid "Username"
 msgstr "认证用户名 (完整邮件地址)"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:167
+#: wp_smtp_admin.php:177
 msgid "Password"
 msgstr "认证密码"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:177
+#: wp_smtp_admin.php:188
 msgid "Delete Options"
 msgstr "禁用时自动删除设置"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:182
-msgid "Delete options while deactivate this plugin."
-msgstr "当禁用此插件时自动删除此插件的设置数据."
+#: wp_smtp_admin.php:194
+msgid "Delete options when deactivating this plugin."
+msgstr "当禁用此插件时自动删除此插件的设置数据。"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:190
+#: wp_smtp_admin.php:200
+msgid "Disable Logs"
+msgstr "禁用日志"
+
+#: wp_smtp_admin.php:206
+msgid "Disable the email logging functionality."
+msgstr "禁用邮件日志功能。"
+
+#: wp_smtp_admin.php:215
 msgid "Save Changes"
 msgstr "保存更改"
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:199
+#: wp_smtp_admin.php:221
+msgid "Test your settings"
+msgstr "测试你的配置"
+
+#: wp_smtp_admin.php:225
 msgid "To:"
 msgstr "收件地址："
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:209
+#: wp_smtp_admin.php:235
 msgid "Subject:"
 msgstr "邮件标题："
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:219
+#: wp_smtp_admin.php:245
 msgid "Message:"
 msgstr "邮件正文："
 
-#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-smtp/wp_smtp_admin.php:230
+#: wp_smtp_admin.php:258
 msgid "Send Test"
 msgstr "发送测试"
 
+#. Description of the plugin/theme
+msgid ""
+"WP SMTP can help us to send emails via SMTP instead of the PHP mail() "
+"function and email logger built-in."
+msgstr ""
+"WP SMTP 可以帮助我们通过 SMTP 发送电子邮件，而不是 PHP mail() 函数和内置"
+"的邮件记录器。"
+
+#. Author of the plugin/theme
+msgid "WPChill"
+msgstr "WPChill"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpchill.com/"
+msgstr "https://www.wpchill.com/"
+
+#~ msgid "Some errors occurred!"
+#~ msgstr "发生了一些错误！"
+
+#~ msgid ""
+#~ "The fields \"To\" \"Subject\" \"Message\" can not be left blank when "
+#~ "testing!"
+#~ msgstr "测试时“收件地址”“邮件标题”“邮件正文”均不能为空！"
